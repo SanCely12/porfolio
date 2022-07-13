@@ -6,9 +6,10 @@ body{
     background-image: url(../images/fondo-contacto.png) ;
     background-size:cover;
 }
-#proyectos{
+#proyectos {
     background-image: url(../images/fondo-proyectos.png);
     background-size: cover;
+    background-repeat: no-repeat;
 }
 #inicio{
     background-image: url(../images/fondo-contacto.png);
@@ -133,13 +134,52 @@ main{
 .cohete{
     height: 410px;
 }
-#inicio span{
+#inicio .input-home p {
     color: white;
     font-size: 17px;
-    border: 1px white solid;
-    border-radius: 15px;
+    border: 1px solid white;
+    border-radius: 50px;
+    font-weight: 600;
 }
-
+.img-circle {
+    margin:auto;
+    display: block;
+    background-color: #fff;
+    padding: 1px;
+    border-radius: 50%;
+    }
+.img-fluid {
+        max-width: 100%;
+        height: auto;
+    }   
+.col-12 {
+        flex: 0 0 auto;
+        width: 100%; 
+        }
+main {
+        display: block; 
+        }   
+.color-gradiente {        
+        background: linear-gradient(to right, rgba(184,37,20,1) 0%, rgba(214,52,30,1) 47%, rgba(240,47,23,1) 70%, rgba(240,47,23,1) 100%);
+    }  
+#idiomas .card {
+        background-color: #370A6D;
+        border-radius: 15px;
+        padding: 40px 0;
+    }
+#sobre-mi .card {
+        height: 182px;
+    }
+#hobbies .card {
+        background-color: #370A6D;
+        border-radius: 15px;
+        padding: 40px 0;
+    }
+#idiomas {
+        background-color: #eee;
+        box-sizing: border-box;
+        display: block;
+    }
 @media (max-width: 750px) {
     #contacto{
         background-image: url("../images/fondo-proyectos.png");
