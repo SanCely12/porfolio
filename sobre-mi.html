@@ -1,24 +1,20 @@
 <!DOCTYPE html>
-<html lang="es">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
-    <title>Proyectos</title>
-</head>
-
-<body id="sobre-mi">
-    <header>
+<html lang="es" class="h-100">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sobre mí</title>
+        <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+        <link rel="stylesheet" href="css/fontawesome/css/fontawesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+        <script src="css/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body id="sobre-mi" class="d-flex flex-column h-100">
+        <header class="container">
     <nav class="navbar navbar-expand-md mb-4">
-        <div class="container">
+        <div class="container-fluid">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>
@@ -44,10 +40,11 @@
             </div>
         </div>
     </nav>
-</header>    <main>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-5 col-12 mt-4">
+</header>    
+<main>
+<section class="container" id="descripcion">
+            <div class="row mb-5">
+                <div class="col-12 col-sm-7">
                     <h1 class="mt-sm-4 pb-sm-4">Sobre mí</h1>
                     <p class="pb-sm-5">Estudiante de programación Full Stack.</p>
                     <a href="contacto.php" class="btn btn-rojo">Enviar mensaje</a>
@@ -55,7 +52,7 @@
                 </div>
                 <div class="col-sm-3 col-12 mt-4 offset-sm-2">
                     <img src="images/foto perfil.jpeg" alt="Sandra Carolina Cely" title="Sandra Carolina Cely"
-                        class="img-fluid img-circle">
+                        class="img-fluid img-circle" id="foto-perfil" >
                 </div>
             </div>
         </div>
